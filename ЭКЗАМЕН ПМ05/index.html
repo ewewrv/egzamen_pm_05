@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zero.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <header>
+        <div class="qw2">
+            <div class="headl">
+                <a href="#"><img class="headimg" src="./img/logo.png" alt=""></a>
+                <p class="tradf">Традиционная<br>семья</p>
+            </div> 
+            <div class="headr">
+                <a href="#iniziativ">Инициативы региона</a>
+                <a href="#vistavks">Запланированные выставки</a>
+                <a href="#futer">Контакты</a>
+            </div>
+        </div>
+    </header>
+    <div class="osnova">
+        <div id="carouselExampleInterval-dark" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <div class="slideone">
+                    <div class="sot">
+                        <div class="sotl">
+                            <h1 class="zagol">Год семьи<br>Вместе строим будущее!</h1>
+                        </div>
+                        <div class="sotr">
+                            <img class="imngban" src="./img/familly.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sob">
+                        <div class="sobl">
+                            <h2 class="zagol2">Узнайте о важных инициативах,
+                                направленных на поддержку семей в регионе. 
+                                Зарегистрируйтесь на  интересные  мероприятия!
+                            </h2>
+                        </div>
+                        <div class="sobr">
+                            <button class="fb">
+                                Зарегистрироваться
+                            </button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="slideone">
+                    <div class="sot">
+                        <div class="sotl">
+                            <h1 class="zagol">Семья - основа <br> общества</h1>
+                        </div>
+                        <div class="sotr">
+                            <img class="imngban" src="./img/familly.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sob">
+                        <div class="sobl">
+                            <h2 class="zagol2">Поддержите  традиционные семейные ценности!  Участвуйте в  мероприятиях Года семьи  и  получите  ценную информацию.
+                            </h2>
+                        </div>
+                        <div class="sobr">
+                            <button class="fb">
+                                Зарегистрироваться
+                            </button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="slideone">
+                    <div class="sot">
+                        <div class="sotl">
+                            <h1 class="zagol">Год семьи: Вместе<br>мы сильнее!</h1>
+                        </div>
+                        <div class="sotr">
+                            <img class="imngban" src="./img/familly.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sob">
+                        <div class="sobl">
+                            <h2 class="zagol2">Регистрируйтесь  на  семейные  мероприятия,  участвуйте  в  конкурсах  и  получите  поддержку  от  государства!
+                            </h2>
+                        </div>
+                        <div class="sobr">
+                            <button class="fb">
+                                Зарегистрироваться
+                            </button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <!-- ------------------------------------------------------ -->
+          
+        <h1 id="iniziativ" class="zagolovok wsx">Инициативы региона</h1>
+        <div class="home">
+            <div class="hometop">
+                <div class="cardi">
+                    <div class="cardit">
+                        <h3>Семейный капитал</h3>
+                        <div class="imgcard">
+                            <img class="cardimg" src="./img/kapital.jpg" alt="">
+                        </div>
+                        <p class="carditxt">Финансовая  поддержка  для  семей  с  детьми</p>
+                    </div>
+                    <button class="cardbut">Подробнее</button>
+                </div>
+                <div class="cardi">
+                    <div class="cardit">
+                        <h3>Школа родителей</h3>
+                        <div class="imgcard">
+                            <img class="cardimg" src="./img/2.jpg" alt="">
+                        </div>
+                        <p class="carditxt">Бесплатные  курсы  и  тренинги  для  родителей  по  воспитанию  детей  и  укреплению  семейных  отношений.</p>
+                    </div>
+                    <button class="cardbut" onclick="openModalReg()">Подробнее</button>
+                </div>
+                <div class="cardi">
+                    <div class="cardit">
+                        <h3>Семейные фестивали</h3>
+                        <div class="imgcard">
+                            <img class="cardimg" src="./img/3.jpg" alt="">
+                        </div>
+                        <p class="carditxt">Развлекательные  мероприятия  для  всей  семьи, сближение  и  создание  позитивных  воспоминаний.</p>
+                    </div>
+                    <button class="cardbut">Подробнее</button>
+                </div>
+            </div>
+            <div class="homeb">
+                <div class="cardi">
+                    <div class="cardit">
+                        <h3>Поддержка многодетных</h3>
+                        <div class="imgcard">
+                            <img class="cardimg lolo" src="./img/4.png" alt="">
+                        </div>
+                        <p class="carditxt">Специальные  программы  и  льготы  для  многодетных  семей,  направленные  на  улучшение  их  жизни.</p>
+                    </div>
+                    <button class="cardbut">Подробнее</button>
+                </div>
+                <div class="cardi">
+                    <div class="cardit">
+                        <h3>Профилактика разводов</h3>
+                        <div class="imgcard">
+                            <img class="cardimg" src="./img/5.jpg" alt="">
+                        </div>
+                        <p class="carditxt">Бесплатные  консультации  и    помощь  для  семей,  находящихся  в  трудной  жизненной  ситуации.</p>
+                    </div>
+                    <button class="cardbut">Подробнее</button>
+                </div>
+                <div class="cardi">
+                    <div class="cardit">
+                        <h3>Семейные центры</h3>
+                        <div class="imgcard">
+                            <img class="cardimg" src="./img/6.jpg" alt="">
+                        </div>
+                        <p class="carditxt">Созданные  в  регионе  центры  предоставляют  семейный  досуг,   оказывают  социальную  помощь  и  консультации.</p>
+                    </div>
+                    <button class="cardbut">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <h1 id="vistavks" class="zagolovok edc">Запланированные выставки</h1>
+        <div class="vistavki">
+            <div class="vl">
+                <div class="visimg">
+                    <img src="./img/ptfkecb0l9zno3zlwnruwaq011lv3llh.webp" alt="" class="imgvis">
+                </div>
+                <div class="viscontnt">
+                    <h3 class="viszagol">Фестиваль  семейного  кино</h3>
+                    <p class="vistxt">В  рамках  фестиваля  будут  показаны  лучшие  семейные  фильмы  российского  кино.  Зрители  смогут  увидеть  как  классические  картины,  так  и  новые  премьеры.</p>
+                </div>
+                <button class="zx">
+                    Зарегестрироваться
+                </button>
+            </div>
+            <div class="vl">
+                <div class="visimg">
+                    <img src="./img/09c417b0fa9ee83d37c7e831e02efdc6.jpeg" alt="" class="imgvis">
+                </div>
+                <div class="viscontnt">
+                    <h3 class="viszagol">Лучшая  семейная  история</h3>
+                    <p class="vistxt">Конкурс  приглашает  семей  поделиться  своими  историями  о  любви,  поддержке  и  успехах,  которые  их  объединяют.  Расказать свою лучшую семейну историю и поделиться эмоциями.</p>
+                </div>
+                <button class="zx">
+                    Зарегестрироваться
+                </button>
+            </div>
+        </div>
+        <footer id="futer">
+            <div class="left">
+                <div class="headl qsc">
+                    <a href=""><img class="headimg" src="./img/logo.png" alt=""></a>
+                    <p class="tradf">Традиционная<br>семья</p>
+                </div> 
+                <div class="kontacts">
+                    <p>Ул. Первомайского 42</p>
+                    <p>email@mail.ru</p>
+                    <p>+7 951 535-55-44</p>
+                    <p>©Кравченко</p>
+                </div>
+            </div>
+            <div class="midle">
+                <p class="midtxt">Инициативы региона</p>
+                <p class="midtxt">Запланированные выставки</p>
+                <button class="lastb" >
+                    <a class="zsd" href="#iniziativ">В начало</a>
+                </button>
+            </div>
+            <div class="right">
+                <p class="setxt">Наши социальный сети:</p>
+                <div class="icones">
+                    <a href="#"><img src="./img/21.png" alt=""></a>
+                    <a href="#"><img src="./img/22.png" alt=""></a>
+                    <a href="#"><img src="./img/23.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
